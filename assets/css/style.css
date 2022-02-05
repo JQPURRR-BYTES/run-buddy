@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* apply styles to <header> */
 header {
@@ -16,15 +17,16 @@ header h1 {
   margin: 0;
 }
 
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
 header a {
   text-decoration: none;
   color: #fce138;
-}
-
-body {
-  /* more on this crazy alphanumerical value in a minute! */
-  color: #39a6b2;
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 /* Applies 20px to every side (top, right, bottom, left) */
@@ -60,4 +62,35 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 22px;
+}
+
+body {
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+footer a {
+  color: #024e76;
+}
+section {
+  padding: 60px;
+  background-image: url("../images/hero-bg.jpg");
 }
